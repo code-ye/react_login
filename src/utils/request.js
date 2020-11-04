@@ -42,6 +42,7 @@ request.interceptors.response.use(
       return response.data.data;
     } else {
       // 功能失败
+      // Toast.fail(response.data.message, 3);
       return Promise.reject(response.data.message);
     }
   },

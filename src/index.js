@@ -8,6 +8,8 @@ import store from "./redux/store";
 import "antd-mobile/dist/antd-mobile.css";
 // 引入公共样式
 import "./assets/css/common.css";
+// 引入iconfont的样式
+import "./assets/css/iconfont.css";
 
 ReactDOM.render(
   <Provider store={store}>
